@@ -11,7 +11,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+#*.dll
 
 # Fortran module files
 *.mod
@@ -20,7 +20,7 @@
 *.lai
 *.la
 *.a
-*.lib
+#*.lib
 
 # Executables
 *.exe
@@ -35,7 +35,7 @@ doc/doc
 docs/web-data
 
 #dmlc
-config.mk
+#config.mk
 
 *.pyc
 .Rhistory
@@ -86,7 +86,7 @@ R-package/R/mxnet_generated.R
 *ubyte
 *.bin
 *.txt
-!CMakeLists.txt
+#!CMakeLists.txt
 
 # ipython notebook
 *_pb2.py
@@ -123,7 +123,7 @@ cmake_install.cmake
 lib
 
 # Visual Studio Code
-.vscode
+#.vscode
 
 # Mac OS X
 .DS_Store
