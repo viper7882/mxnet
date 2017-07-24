@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8098DBFC-FA3C-3B60-950F-B5ECBA9571DF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>dmlc</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Personal\Installer\mxnet\build\dmlc-core\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dmlc.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dmlc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.4.210\windows\mkl\include;C:\Personal\Installer\mxnet\src\operator\mkl;C:\Personal\Installer\mxnet\include;C:\Personal\Installer\mxnet\src;C:\Personal\Installer\mxnet\mshadow;C:\Personal\Installer\mxnet\cub;C:\Personal\Installer\mxnet\nnvm\include;C:\Personal\Installer\mxnet\dmlc-core\include;C:\Personal\Installer\mxnet\dlpack\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_MKL2017=1;USE_MKL=1;CUB_MKL=1;MKL_EXPERIMENTAL=0;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=0;MXNET_USE_OPENCV=0;DMLC_USE_HDFS=0;DMLC_USE_S3=0;DMLC_USE_AZURE=0;__USE_XOPEN2K8;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_MKL2017=1;USE_MKL=1;CUB_MKL=1;MKL_EXPERIMENTAL=0;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=0;MXNET_USE_OPENCV=0;DMLC_USE_HDFS=0;DMLC_USE_S3=0;DMLC_USE_AZURE=0;__USE_XOPEN2K8;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.4.210\windows\mkl\include;C:\Personal\Installer\mxnet\src\operator\mkl;C:\Personal\Installer\mxnet\include;C:\Personal\Installer\mxnet\src;C:\Personal\Installer\mxnet\mshadow;C:\Personal\Installer\mxnet\cub;C:\Personal\Installer\mxnet\nnvm\include;C:\Personal\Installer\mxnet\dmlc-core\include;C:\Personal\Installer\mxnet\dlpack\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.4.210\windows\mkl\include;C:\Personal\Installer\mxnet\src\operator\mkl;C:\Personal\Installer\mxnet\include;C:\Personal\Installer\mxnet\src;C:\Personal\Installer\mxnet\mshadow;C:\Personal\Installer\mxnet\cub;C:\Personal\Installer\mxnet\nnvm\include;C:\Personal\Installer\mxnet\dmlc-core\include;C:\Personal\Installer\mxnet\dlpack\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Personal\Installer\mxnet\dmlc-core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Personal/Installer/mxnet/dmlc-core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Personal/Installer/mxnet -BC:/Personal/Installer/mxnet/build --check-stamp-file C:/Personal/Installer/mxnet/build/dmlc-core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Personal/Installer/mxnet/dmlc-core/CMakeLists.txt;C:\Personal\Installer\mxnet\dmlc-core\CMakeLists.txt;C:\Personal\Installer\mxnet\dmlc-core\cmake\Utils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Personal\Installer\mxnet\dmlc-core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Personal\Installer\mxnet\build\dmlc-core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Personal\Installer\mxnet\dmlc-core\src\config.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\dmlc-core\src\data.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\dmlc-core\src\io.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\dmlc-core\src\recordio.cc"  />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\any.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\array_view.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\base.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\common.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\concurrency.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\config.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\data.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\endian.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\input_split_shuffle.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\io.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\json.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\logging.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\lua.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\memory.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\memory_io.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\omp.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\optional.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\parameter.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\recordio.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\registry.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\serializer.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\thread_local.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\threadediter.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\timer.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\dmlc-core\include\dmlc\type_traits.h" />
+    <ClCompile Include="C:\Personal\Installer\mxnet\dmlc-core\src\io\line_split.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\dmlc-core\src\io\recordio_split.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\dmlc-core\src\io\input_split_base.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\dmlc-core\src\io\local_filesys.cc"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Personal\Installer\mxnet\build\ZERO_CHECK.vcxproj">
+      <Project>{7C5973D4-26ED-34E5-8A09-ACB774A4A725}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

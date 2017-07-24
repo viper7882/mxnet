@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Personal\Installer\mxnet\mshadow\CMakeLists.txt" />
+    <CustomBuild Include="C:\Personal\Installer\mxnet\build\CMakeFiles\b0b172f1156024b6f6f3ea8f0e4aac22\mshadow_lint.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Personal\Installer\mxnet\build\mshadow\CMakeFiles\mshadow_lint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7B71FD79-1E2A-328D-881B-8DFD54E248CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

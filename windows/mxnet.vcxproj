@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE342F05-D06A-3743-8034-A795561B7F11}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>mxnet</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Personal\Installer\mxnet\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mxnet.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libmxnet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.4.210\windows\mkl\include;C:\Personal\Installer\mxnet\src\operator\mkl;C:\Personal\Installer\mxnet\include;C:\Personal\Installer\mxnet\src;C:\Personal\Installer\mxnet\mshadow;C:\Personal\Installer\mxnet\cub;C:\Personal\Installer\mxnet\nnvm\include;C:\Personal\Installer\mxnet\dmlc-core\include;C:\Personal\Installer\mxnet\dlpack\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_MKL2017=1;USE_MKL=1;CUB_MKL=1;MKL_EXPERIMENTAL=0;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=0;MXNET_USE_OPENCV=0;MXNET_USE_PROFILER;CMAKE_INTDIR="Release";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_MKL2017=1;USE_MKL=1;CUB_MKL=1;MKL_EXPERIMENTAL=0;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=0;MXNET_USE_OPENCV=0;MXNET_USE_PROFILER;CMAKE_INTDIR=\"Release\";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.4.210\windows\mkl\include;C:\Personal\Installer\mxnet\src\operator\mkl;C:\Personal\Installer\mxnet\include;C:\Personal\Installer\mxnet\src;C:\Personal\Installer\mxnet\mshadow;C:\Personal\Installer\mxnet\cub;C:\Personal\Installer\mxnet\nnvm\include;C:\Personal\Installer\mxnet\dmlc-core\include;C:\Personal\Installer\mxnet\dlpack\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.4.210\windows\mkl\include;C:\Personal\Installer\mxnet\src\operator\mkl;C:\Personal\Installer\mxnet\include;C:\Personal\Installer\mxnet\src;C:\Personal\Installer\mxnet\mshadow;C:\Personal\Installer\mxnet\cub;C:\Personal\Installer\mxnet\nnvm\include;C:\Personal\Installer\mxnet\dmlc-core\include;C:\Personal\Installer\mxnet\dlpack\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>dmlc-core\Release\dmlc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Personal/Installer/mxnet/build/Release/libmxnet.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Personal/Installer/mxnet/build/Release/libmxnet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Personal\Installer\mxnet\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Personal/Installer/mxnet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Personal/Installer/mxnet -BC:/Personal/Installer/mxnet/build --check-stamp-file C:/Personal/Installer/mxnet/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Personal/Installer/mxnet/CMakeLists.txt;C:\Personal\Installer\mxnet\CMakeLists.txt;C:\Personal\Installer\mxnet\build\CMakeFiles\3.9.0-rc3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Personal\Installer\mxnet\build\CMakeFiles\3.9.0-rc3\CMakeCCompiler.cmake;C:\Personal\Installer\mxnet\build\CMakeFiles\3.9.0-rc3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Personal\Installer\mxnet\build\CMakeFiles\3.9.0-rc3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Personal\Installer\mxnet\cmake\Utils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Personal\Installer\mxnet\cmake\Modules\FindMKL.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Personal\Installer\mxnet\mshadow\cmake\mshadow.cmake;C:\Personal\Installer\mxnet\cmake\Modules\FindMKL.cmake;C:\Personal\Installer\mxnet\mshadow\cmake\Utils.cmake;C:\Personal\Installer\mxnet\mshadow\cmake\Cuda.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Personal\Installer\mxnet\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Personal\Installer\mxnet\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api_error.cc" >
+      <ObjectFileName>$(IntDir)/src/c_api/c_api_error.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api_executor.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api_ndarray.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api_symbolic.cc" >
+      <ObjectFileName>$(IntDir)/src/c_api/c_api_symbolic.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_predict_api.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\common\mxrtc.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\engine.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\naive_engine.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\profiler.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\threaded_engine.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\threaded_engine_perdevice.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\threaded_engine_pooled.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\executor\attach_op_execs_pass.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\executor\attach_op_resource_pass.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\executor\graph_executor.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\executor\inplace_addto_detect_pass.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\initialize.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\image_aug_default.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\image_det_aug_default.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\image_io.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\io.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_csv.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_image_det_recordio.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_image_recordio.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_image_recordio_2.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_mnist.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\kvstore\kvstore.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\ndarray\autograd.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\ndarray\ndarray.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\ndarray\ndarray_function.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\nnvm\legacy_json_util.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\nnvm\legacy_op_util.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\activation.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\batch_norm.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\batch_norm_v1.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\bilinear_sampler.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\concat.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\count_sketch.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_loss.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\deformable_convolution.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\deformable_psroi_pooling.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\dequantize.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\fft.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\ifft.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\multi_proposal.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_detection.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_prior.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_target.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\proposal.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\psroi_pooling.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\quantize.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\convolution.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\convolution_v1.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\correlation.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\crop.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\cross_device_copy.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\cudnn_algoreg.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\cudnn_batch_norm.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\custom\custom.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\custom\native_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\custom\ndarray_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\deconvolution.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\dropout.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\fully_connected.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\grid_generator.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\identity_attach_KL_sparse_reg.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\instance_norm.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\l2_normalization.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\leaky_relu.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\loss_binary_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\lrn.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\make_loss.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_cppwrapper.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_memory.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\nn\softmax.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_util.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\operator.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\operator_util.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\optimizer_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\pad.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\pooling.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\pooling_v1.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\random\multisample_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\random\sample_multinomial_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\random\sample_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\regression_output.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\rnn.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\roi_pooling.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\sequence_last.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\sequence_mask.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\sequence_reverse.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\slice_channel.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\softmax_activation.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\softmax_output.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\spatial_transformer.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\svm_output.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\swapaxis.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\broadcast_reduce_op_index.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\broadcast_reduce_op_value.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\control_flow_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_broadcast_op_basic.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_broadcast_op_extended.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_broadcast_op_logic.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_op_basic.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_op_extended.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_op_logic.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_scalar_op_basic.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_scalar_op_extended.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_scalar_op_logic.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_sum.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_unary_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\indexing_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\init_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\la_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\matrix_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\ordering_op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\upsampling.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\resource.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\storage\storage.cc"  />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\c_api\c_api_common.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\common\cuda_utils.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\common\lazy_alloc_array.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\common\object_pool.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\common\utils.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\engine_impl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\profiler.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\stream_manager.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\thread_pool.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\threaded_engine.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\executor\exec_pass.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\executor\graph_executor.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\image_augmenter.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\image_iter_common.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\image_recordio.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\inst_vector.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\iter_batchloader.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\iter_normalize.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\iter_prefetcher.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\kvstore\comm.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\kvstore\kvstore_dist.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\kvstore\kvstore_dist_server.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\kvstore\kvstore_local.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\ndarray\autograd.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\ndarray\ndarray_function-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\ndarray\ndarray_function.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\activation-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\batch_norm-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\batch_norm_v1-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\bilinear_sampler-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\channel_op_common.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\concat-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\count_sketch-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\contrib\moderngpu\include\mgpuenums.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\contrib\moderngpu\include\util\static.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\cpu_ctc.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\ctc_helper.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\gpu_ctc.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\gpu_ctc_kernels.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\hostdevice.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_loss-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\deformable_convolution-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\deformable_psroi_pooling-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\dequantize-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\fft-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ifft-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\multi_proposal-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_detection-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_prior-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_target-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\nn\deformable_im2col.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\proposal-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\psroi_pooling-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\quantize-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\convolution-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\convolution_v1-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\correlation-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\crop-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_activation-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_algoreg-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_batch_norm-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_bilinear_sampler-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_convolution-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_deconvolution-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_lrn-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_pooling-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_rnn-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_softmax_activation-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_spatial_transformer-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\custom\custom-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\custom\native_op-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\custom\ndarray_op-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\deconvolution-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\dropout-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\elemwise_op_common.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\fully_connected-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\grid_generator-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\identity_attach_KL_sparse_reg-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\instance_norm-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\l2_normalization-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\leaky_relu-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\loss_binary_op-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\lrn-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\make_loss-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_batch_norm-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_concat-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_convolution-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_cppwrapper.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_elementwise_copy-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_elementwise_sum-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_fully_connected-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_lrn-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_memory-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_memory.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_pooling-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_relu-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_util-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mshadow_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mxnet_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nn\im2col.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nn\pool.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nn\softmax-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_convolution-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_fully_connected-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_pooling-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_util.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\operator_common.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\optimizer_op-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\pad-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\pooling-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\pooling_v1-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\random\multisample_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\random\sample_multinomial_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\random\sample_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\regression_output-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\rnn-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\roi_pooling-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\sequence_last-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\sequence_mask-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\sequence_op_common.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\sequence_reverse-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\slice_channel-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\softmax_activation-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\softmax_output-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\spatial_transformer-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\special_functions-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\svm_output-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\swapaxis-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\broadcast_reduce-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\broadcast_reduce_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\control_flow_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_broadcast_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_scalar_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_sum.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_unary_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\indexing_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\init_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\la_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\la_op_inline.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\matrix_op-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\ordering_op-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\sort_op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\upsampling-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\optimizer\sgd-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\cpu_device_storage.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\gpu_device_storage.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\naive_storage_manager.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\pinned_memory_storage.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\pooled_storage_manager.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\storage_manager.h" />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\c_api\c_api_error.cc" >
+      <ObjectFileName>$(IntDir)/nnvm/src/c_api/c_api_error.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\c_api\c_api_graph.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\c_api\c_api_symbolic.cc" >
+      <ObjectFileName>$(IntDir)/nnvm/src/c_api/c_api_symbolic.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\graph.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\node.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\op.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\pass.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\symbolic.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\gradient.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\infer_shape_type.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\order_mutation.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\place_device.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\plan_memory.cc"  />
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\saveload_json.cc"  />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\src\c_api\c_api_common.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\src\pass\graph_algorithm.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\base.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\c_api.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\graph.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\graph_attr_types.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\node.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\op.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\op_attr_types.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\pass.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\pass_functions.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\symbolic.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\tuple.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\base.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\dot_engine-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\expr_engine-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\expr_scalar-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\expression.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\broadcast.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\broadcast_with_axis.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\channel_pool.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\channel_unpool.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\choose.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\complex.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\concat.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\crop.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\fill.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\flip.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\implicit_gemm.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\mask.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\mirror.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\one_hot.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\pack_col2patch.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\pad.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\range.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\reduce_with_axis.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\reduceto1d.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\reshape.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\slice.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\slice_ex.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\spatial_pool.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\spatial_unpool.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\spatial_upsampling_nearest.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\swapaxis.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\take.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\take_grad.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\transpose.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\unpack_patch2col.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\half.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\half2.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\io.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\logging.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\packet-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\packet\plain-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\packet\sse-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\random.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\stream_gpu-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor_blob.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor_container.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor_cpu-inl.h" />
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor_gpu-inl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Personal\Installer\mxnet\build\ZERO_CHECK.vcxproj">
+      <Project>{7C5973D4-26ED-34E5-8A09-ACB774A4A725}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Personal\Installer\mxnet\build\dmlc-core\dmlc.vcxproj">
+      <Project>{8098DBFC-FA3C-3B60-950F-B5ECBA9571DF}</Project>
+      <Name>dmlc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

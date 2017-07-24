@@ -28,7 +28,7 @@ set MXNET_SETUP_HAS_CUDNN=0
 :::: validate msvc version  ::::
 
 if "%VisualStudioVersion%" == "" (
-  if not "%VS140COMNTOOLS%" == "" ( call "%VS140COMNTOOLS%..\..\VC\vcvarsall.bat" x64 && goto :VS_SETUP)
+  if not "%VS140COMNTOOLS%" == "" ( call "%VS140COMNTOOLS%..\..\VC\vcvarsall.bat" x86 && goto :VS_SETUP)
 REM  Not Supported yet due to dependencies
 REM  if not "%VS120COMNTOOLS%" == "" ( call "%VS120COMNTOOLS%..\..\VC\vcvarsall.bat" x64 && goto :VS_SETUP)
 REM  if not "%VS110COMNTOOLS%" == "" ( call "%VS110COMNTOOLS%..\..\VC\vcvarsall.bat" x64 && goto :VS_SETUP)
@@ -62,6 +62,7 @@ if "%PreferredToolArchitecture%" == "x64" (
   if "%Platform%"   == ""    set MXNET_VS_PLATFORM=x86
 )
 
+set MXNET_VS_PLATFORM=x86
 if     "%MXNET_VS_PLATFORM%" == "x86"                       set MXNET_VS_TARGET=x86
 if not "%MXNET_VS_PLATFORM%" == "%MXNET_VS_PLATFORM:_x86=%" set MXNET_VS_TARGET=x86
 if not "%MXNET_VS_PLATFORM%" == "%MXNET_VS_PLATFORM:_arm=%" set MXNET_VS_TARGET=arm
@@ -204,9 +205,9 @@ if not "%MXNET_DEPENDENCIES%" == "" (
 
 :: make symbolic link to workaround opencv cmakefile bug
 echo %ECHO_PREFIX% Install symblic link for opencv
-mkdir %CONDA_DIR%\envs\x64\vc14\
-mklink /D %CONDA_DIR%\envs\x64\vc14\lib %MXNET_CONDA_LIBRARY:\\=\%\lib
-mklink /D %CONDA_DIR%\envs\x64\vc14\bin %MXNET_CONDA_LIBRARY:\\=\%\bin
+mkdir %CONDA_DIR%\envs\x86\vc14\
+mklink /D %CONDA_DIR%\envs\x86\vc14\lib %MXNET_CONDA_LIBRARY:\\=\%\lib
+mklink /D %CONDA_DIR%\envs\x86\vc14\bin %MXNET_CONDA_LIBRARY:\\=\%\bin
 
 :NO_CONDA
 if exist "%MXNET_CONDA_INFO%" del /q %MXNET_CONDA_INFO%
@@ -235,9 +236,9 @@ if "%MXNET_BLAS%"=="MKL" SET CMAKE_OPT=%CMAKE_OPT% -DMKL_HOME="%INTEL_MKL_DIR%" 
 
 SET CMAKE_OPT=%CMAKE_OPT% -DOpenCV_LIB_PATH="%MXNET_CONDA_LIBRARY%\\lib\\" -DOpenCV_INCLUDE_DIRS="%MXNET_CONDA_LIBRARY%\\include\\" -DOpenCV_CONFIG_PATH="%MXNET_CONDA_LIBRARY%"
 
-cmake -Wno-dev %CMAKE_OPT% -DCMAKE_PREFIX_PATH="%MXNET_CONDA_LIBRARY%" -G "Visual Studio 14 2015 Win64" -DUSE_PROFILER=1 -DCMAKE_BUILD_TYPE=Release -H. -Bbuild
+cmake -Wno-dev %CMAKE_OPT% -DCMAKE_PREFIX_PATH="%MXNET_CONDA_LIBRARY%" -G "Visual Studio 14 2015" -DUSE_PROFILER=1 -DCMAKE_BUILD_TYPE=Release -H. -Bbuild
 if errorlevel 1 goto :FAIL
-msbuild build\mxnet.sln /t:Build /p:Configuration=Release;Platform=x64 /m
+msbuild build\mxnet.sln /t:Build /p:Configuration=Release /m
 if errorlevel 1 goto :FAIL
 
 echo %ECHO_PREFIX% Install libmxnet.dll

@@ -1,0 +1,98 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{38F6FE9B-F04F-3DCC-876A-9A2B156D7EF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+		{8098DBFC-FA3C-3B60-950F-B5ECBA9571DF} = {8098DBFC-FA3C-3B60-950F-B5ECBA9571DF}
+		{AE342F05-D06A-3743-8034-A795561B7F11} = {AE342F05-D06A-3743-8034-A795561B7F11}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Continuous", "Continuous.vcxproj", "{0947512A-6D88-341A-BED5-CB49F05E452E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experimental", "Experimental.vcxproj", "{0299A1A8-C0AF-3BD4-8973-1B5C160C9801}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{DE8CC187-C661-3C47-A21F-D7FB35A6351A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38F6FE9B-F04F-3DCC-876A-9A2B156D7EF4} = {38F6FE9B-F04F-3DCC-876A-9A2B156D7EF4}
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nightly", "Nightly.vcxproj", "{468576D4-44C9-36C3-A142-F44CDDF6C6D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NightlyMemoryCheck", "NightlyMemoryCheck.vcxproj", "{0DF0A865-91F8-3F24-A44A-CF38AE7B171B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RUN_TESTS", "RUN_TESTS.vcxproj", "{AD2685F3-B1BF-37DB-9DD1-2BC600C04D5F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{7C5973D4-26ED-34E5-8A09-ACB774A4A725}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dmlc", "dmlc-core\dmlc.vcxproj", "{8098DBFC-FA3C-3B60-950F-B5ECBA9571DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dmlc_lint", "dmlc-core\dmlc_lint.vcxproj", "{718D965E-B831-3877-80D3-A04BBA007AF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mshadow_lint", "mshadow\mshadow_lint.vcxproj", "{64D44A0F-75B9-3DA0-9E98-D40C81C79315}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mxnet", "mxnet.vcxproj", "{AE342F05-D06A-3743-8034-A795561B7F11}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+		{8098DBFC-FA3C-3B60-950F-B5ECBA9571DF} = {8098DBFC-FA3C-3B60-950F-B5ECBA9571DF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mxnet_lint", "mxnet_lint.vcxproj", "{8FB34F9A-4B18-36F3-92EC-5552F9553E05}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725} = {7C5973D4-26ED-34E5-8A09-ACB774A4A725}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38F6FE9B-F04F-3DCC-876A-9A2B156D7EF4}.Release|Win32.ActiveCfg = Release|Win32
+		{38F6FE9B-F04F-3DCC-876A-9A2B156D7EF4}.Release|Win32.Build.0 = Release|Win32
+		{0947512A-6D88-341A-BED5-CB49F05E452E}.Release|Win32.ActiveCfg = Release|Win32
+		{0299A1A8-C0AF-3BD4-8973-1B5C160C9801}.Release|Win32.ActiveCfg = Release|Win32
+		{DE8CC187-C661-3C47-A21F-D7FB35A6351A}.Release|Win32.ActiveCfg = Release|Win32
+		{468576D4-44C9-36C3-A142-F44CDDF6C6D0}.Release|Win32.ActiveCfg = Release|Win32
+		{0DF0A865-91F8-3F24-A44A-CF38AE7B171B}.Release|Win32.ActiveCfg = Release|Win32
+		{AD2685F3-B1BF-37DB-9DD1-2BC600C04D5F}.Release|Win32.ActiveCfg = Release|Win32
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725}.Release|Win32.ActiveCfg = Release|Win32
+		{7C5973D4-26ED-34E5-8A09-ACB774A4A725}.Release|Win32.Build.0 = Release|Win32
+		{8098DBFC-FA3C-3B60-950F-B5ECBA9571DF}.Release|Win32.ActiveCfg = Release|Win32
+		{8098DBFC-FA3C-3B60-950F-B5ECBA9571DF}.Release|Win32.Build.0 = Release|Win32
+		{718D965E-B831-3877-80D3-A04BBA007AF9}.Release|Win32.ActiveCfg = Release|Win32
+		{64D44A0F-75B9-3DA0-9E98-D40C81C79315}.Release|Win32.ActiveCfg = Release|Win32
+		{AE342F05-D06A-3743-8034-A795561B7F11}.Release|Win32.ActiveCfg = Release|Win32
+		{AE342F05-D06A-3743-8034-A795561B7F11}.Release|Win32.Build.0 = Release|Win32
+		{8FB34F9A-4B18-36F3-92EC-5552F9553E05}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

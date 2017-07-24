@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api.cc">
+      <Filter>Source\src\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api_error.cc">
+      <Filter>Source\src\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api_executor.cc">
+      <Filter>Source\src\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api_ndarray.cc">
+      <Filter>Source\src\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_api_symbolic.cc">
+      <Filter>Source\src\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\c_api\c_predict_api.cc">
+      <Filter>Source\src\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\common\mxrtc.cc">
+      <Filter>Source\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\engine.cc">
+      <Filter>Source\src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\naive_engine.cc">
+      <Filter>Source\src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\profiler.cc">
+      <Filter>Source\src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\threaded_engine.cc">
+      <Filter>Source\src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\threaded_engine_perdevice.cc">
+      <Filter>Source\src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\engine\threaded_engine_pooled.cc">
+      <Filter>Source\src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\executor\attach_op_execs_pass.cc">
+      <Filter>Source\src\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\executor\attach_op_resource_pass.cc">
+      <Filter>Source\src\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\executor\graph_executor.cc">
+      <Filter>Source\src\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\executor\inplace_addto_detect_pass.cc">
+      <Filter>Source\src\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\initialize.cc">
+      <Filter>Source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\image_aug_default.cc">
+      <Filter>Source\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\image_det_aug_default.cc">
+      <Filter>Source\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\image_io.cc">
+      <Filter>Source\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\io.cc">
+      <Filter>Source\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_csv.cc">
+      <Filter>Source\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_image_det_recordio.cc">
+      <Filter>Source\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_image_recordio.cc">
+      <Filter>Source\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_image_recordio_2.cc">
+      <Filter>Source\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\io\iter_mnist.cc">
+      <Filter>Source\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\kvstore\kvstore.cc">
+      <Filter>Source\src\kvstore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\ndarray\autograd.cc">
+      <Filter>Source\src\ndarray</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\ndarray\ndarray.cc">
+      <Filter>Source\src\ndarray</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\ndarray\ndarray_function.cc">
+      <Filter>Source\src\ndarray</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\nnvm\legacy_json_util.cc">
+      <Filter>Source\src\nnvm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\nnvm\legacy_op_util.cc">
+      <Filter>Source\src\nnvm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\activation.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\batch_norm.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\batch_norm_v1.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\bilinear_sampler.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\concat.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\count_sketch.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_loss.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\deformable_convolution.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\deformable_psroi_pooling.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\dequantize.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\fft.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\ifft.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\multi_proposal.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_detection.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_prior.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_target.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\proposal.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\psroi_pooling.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\contrib\quantize.cc">
+      <Filter>Source\src\operator\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\convolution.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\convolution_v1.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\correlation.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\crop.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\cross_device_copy.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\cudnn_algoreg.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\cudnn_batch_norm.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\custom\custom.cc">
+      <Filter>Source\src\operator\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\custom\native_op.cc">
+      <Filter>Source\src\operator\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\custom\ndarray_op.cc">
+      <Filter>Source\src\operator\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\deconvolution.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\dropout.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\fully_connected.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\grid_generator.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\identity_attach_KL_sparse_reg.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\instance_norm.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\l2_normalization.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\leaky_relu.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\loss_binary_op.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\lrn.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\make_loss.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_cppwrapper.cc">
+      <Filter>Source\src\operator\mkl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_memory.cc">
+      <Filter>Source\src\operator\mkl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\nn\softmax.cc">
+      <Filter>Source\src\operator\nn</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_util.cc">
+      <Filter>Source\src\operator\nnpack</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\operator.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\operator_util.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\optimizer_op.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\pad.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\pooling.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\pooling_v1.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\random\multisample_op.cc">
+      <Filter>Source\src\operator\random</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\random\sample_multinomial_op.cc">
+      <Filter>Source\src\operator\random</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\random\sample_op.cc">
+      <Filter>Source\src\operator\random</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\regression_output.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\rnn.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\roi_pooling.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\sequence_last.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\sequence_mask.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\sequence_reverse.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\slice_channel.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\softmax_activation.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\softmax_output.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\spatial_transformer.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\svm_output.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\swapaxis.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\broadcast_reduce_op_index.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\broadcast_reduce_op_value.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\control_flow_op.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_broadcast_op_basic.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_broadcast_op_extended.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_broadcast_op_logic.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_op_basic.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_op_extended.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_op_logic.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_scalar_op_basic.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_scalar_op_extended.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_scalar_op_logic.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_sum.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_unary_op.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\indexing_op.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\init_op.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\la_op.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\matrix_op.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\tensor\ordering_op.cc">
+      <Filter>Source\src\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\operator\upsampling.cc">
+      <Filter>Source\src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\resource.cc">
+      <Filter>Source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\src\storage\storage.cc">
+      <Filter>Source\src\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\c_api\c_api_error.cc">
+      <Filter>Source\nnvm\src\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\c_api\c_api_graph.cc">
+      <Filter>Source\nnvm\src\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\c_api\c_api_symbolic.cc">
+      <Filter>Source\nnvm\src\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\graph.cc">
+      <Filter>Source\nnvm\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\node.cc">
+      <Filter>Source\nnvm\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\op.cc">
+      <Filter>Source\nnvm\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\pass.cc">
+      <Filter>Source\nnvm\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\core\symbolic.cc">
+      <Filter>Source\nnvm\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\gradient.cc">
+      <Filter>Source\nnvm\src\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\infer_shape_type.cc">
+      <Filter>Source\nnvm\src\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\order_mutation.cc">
+      <Filter>Source\nnvm\src\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\place_device.cc">
+      <Filter>Source\nnvm\src\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\plan_memory.cc">
+      <Filter>Source\nnvm\src\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Installer\mxnet\nnvm\src\pass\saveload_json.cc">
+      <Filter>Source\nnvm\src\pass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\c_api\c_api_common.h">
+      <Filter>Include\src\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\common\cuda_utils.h">
+      <Filter>Include\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\common\lazy_alloc_array.h">
+      <Filter>Include\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\common\object_pool.h">
+      <Filter>Include\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\common\utils.h">
+      <Filter>Include\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\engine_impl.h">
+      <Filter>Include\src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\profiler.h">
+      <Filter>Include\src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\stream_manager.h">
+      <Filter>Include\src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\thread_pool.h">
+      <Filter>Include\src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\engine\threaded_engine.h">
+      <Filter>Include\src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\executor\exec_pass.h">
+      <Filter>Include\src\executor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\executor\graph_executor.h">
+      <Filter>Include\src\executor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\image_augmenter.h">
+      <Filter>Include\src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\image_iter_common.h">
+      <Filter>Include\src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\image_recordio.h">
+      <Filter>Include\src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\inst_vector.h">
+      <Filter>Include\src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\iter_batchloader.h">
+      <Filter>Include\src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\iter_normalize.h">
+      <Filter>Include\src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\io\iter_prefetcher.h">
+      <Filter>Include\src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\kvstore\comm.h">
+      <Filter>Include\src\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\kvstore\kvstore_dist.h">
+      <Filter>Include\src\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\kvstore\kvstore_dist_server.h">
+      <Filter>Include\src\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\kvstore\kvstore_local.h">
+      <Filter>Include\src\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\ndarray\autograd.h">
+      <Filter>Include\src\ndarray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\ndarray\ndarray_function-inl.h">
+      <Filter>Include\src\ndarray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\ndarray\ndarray_function.h">
+      <Filter>Include\src\ndarray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\activation-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\batch_norm-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\batch_norm_v1-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\bilinear_sampler-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\channel_op_common.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\concat-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\count_sketch-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\contrib\moderngpu\include\mgpuenums.h">
+      <Filter>Include\src\operator\contrib\ctc_include\contrib\moderngpu\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\contrib\moderngpu\include\util\static.h">
+      <Filter>Include\src\operator\contrib\ctc_include\contrib\moderngpu\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\cpu_ctc.h">
+      <Filter>Include\src\operator\contrib\ctc_include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\ctc_helper.h">
+      <Filter>Include\src\operator\contrib\ctc_include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\gpu_ctc.h">
+      <Filter>Include\src\operator\contrib\ctc_include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\gpu_ctc_kernels.h">
+      <Filter>Include\src\operator\contrib\ctc_include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_include\detail\hostdevice.h">
+      <Filter>Include\src\operator\contrib\ctc_include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ctc_loss-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\deformable_convolution-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\deformable_psroi_pooling-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\dequantize-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\fft-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\ifft-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\multi_proposal-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_detection-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_prior-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\multibox_target-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\nn\deformable_im2col.h">
+      <Filter>Include\src\operator\contrib\nn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\proposal-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\psroi_pooling-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\contrib\quantize-inl.h">
+      <Filter>Include\src\operator\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\convolution-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\convolution_v1-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\correlation-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\crop-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_activation-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_algoreg-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_batch_norm-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_bilinear_sampler-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_convolution-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_deconvolution-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_lrn-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_pooling-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_rnn-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_softmax_activation-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\cudnn_spatial_transformer-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\custom\custom-inl.h">
+      <Filter>Include\src\operator\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\custom\native_op-inl.h">
+      <Filter>Include\src\operator\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\custom\ndarray_op-inl.h">
+      <Filter>Include\src\operator\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\deconvolution-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\dropout-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\elemwise_op_common.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\fully_connected-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\grid_generator-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\identity_attach_KL_sparse_reg-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\instance_norm-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\l2_normalization-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\leaky_relu-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\loss_binary_op-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\lrn-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\make_loss-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_batch_norm-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_concat-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_convolution-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_cppwrapper.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_elementwise_copy-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_elementwise_sum-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_fully_connected-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_lrn-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_memory-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_memory.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_pooling-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_relu-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mkl\mkl_util-inl.h">
+      <Filter>Include\src\operator\mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mshadow_op.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\mxnet_op.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nn\im2col.h">
+      <Filter>Include\src\operator\nn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nn\pool.h">
+      <Filter>Include\src\operator\nn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nn\softmax-inl.h">
+      <Filter>Include\src\operator\nn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_convolution-inl.h">
+      <Filter>Include\src\operator\nnpack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_fully_connected-inl.h">
+      <Filter>Include\src\operator\nnpack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_pooling-inl.h">
+      <Filter>Include\src\operator\nnpack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\nnpack\nnpack_util.h">
+      <Filter>Include\src\operator\nnpack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\operator_common.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\optimizer_op-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\pad-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\pooling-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\pooling_v1-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\random\multisample_op.h">
+      <Filter>Include\src\operator\random</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\random\sample_multinomial_op.h">
+      <Filter>Include\src\operator\random</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\random\sample_op.h">
+      <Filter>Include\src\operator\random</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\regression_output-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\rnn-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\roi_pooling-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\sequence_last-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\sequence_mask-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\sequence_op_common.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\sequence_reverse-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\slice_channel-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\softmax_activation-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\softmax_output-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\spatial_transformer-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\special_functions-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\svm_output-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\swapaxis-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\broadcast_reduce-inl.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\broadcast_reduce_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\control_flow_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_broadcast_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_binary_scalar_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_sum.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\elemwise_unary_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\indexing_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\init_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\la_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\la_op_inline.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\matrix_op-inl.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\ordering_op-inl.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\tensor\sort_op.h">
+      <Filter>Include\src\operator\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\operator\upsampling-inl.h">
+      <Filter>Include\src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\optimizer\sgd-inl.h">
+      <Filter>Include\src\optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\cpu_device_storage.h">
+      <Filter>Include\src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\gpu_device_storage.h">
+      <Filter>Include\src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\naive_storage_manager.h">
+      <Filter>Include\src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\pinned_memory_storage.h">
+      <Filter>Include\src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\pooled_storage_manager.h">
+      <Filter>Include\src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\src\storage\storage_manager.h">
+      <Filter>Include\src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\src\c_api\c_api_common.h">
+      <Filter>Include\nnvm\src\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\src\pass\graph_algorithm.h">
+      <Filter>Include\nnvm\src\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\base.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\c_api.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\graph.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\graph_attr_types.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\node.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\op.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\op_attr_types.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\pass.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\pass_functions.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\symbolic.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\nnvm\include\nnvm\tuple.h">
+      <Filter>Include\nnvm\include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\base.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\dot_engine-inl.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\expr_engine-inl.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\expr_scalar-inl.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\expression.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\broadcast.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\broadcast_with_axis.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\channel_pool.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\channel_unpool.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\choose.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\complex.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\concat.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\crop.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\fill.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\flip.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\implicit_gemm.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\mask.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\mirror.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\one_hot.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\pack_col2patch.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\pad.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\range.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\reduce_with_axis.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\reduceto1d.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\reshape.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\slice.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\slice_ex.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\spatial_pool.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\spatial_unpool.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\spatial_upsampling_nearest.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\swapaxis.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\take.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\take_grad.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\transpose.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\extension\unpack_patch2col.h">
+      <Filter>Include\mshadow\mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\half.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\half2.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\io.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\logging.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\packet-inl.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\packet\plain-inl.h">
+      <Filter>Include\mshadow\mshadow\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\packet\sse-inl.h">
+      <Filter>Include\mshadow\mshadow\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\random.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\stream_gpu-inl.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor_blob.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor_container.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor_cpu-inl.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Installer\mxnet\mshadow\mshadow\tensor_gpu-inl.h">
+      <Filter>Include\mshadow\mshadow</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Personal\Installer\mxnet\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include\src\c_api">
+      <UniqueIdentifier>{73CA1815-8EE8-37EF-8CB9-7D8BCFF9B792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\common">
+      <UniqueIdentifier>{C56ECD8E-D0E7-3DB2-9B46-5EF5F39037E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\engine">
+      <UniqueIdentifier>{A72689D3-FF98-3DD1-82EB-9B140DD2A25E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\executor">
+      <UniqueIdentifier>{8B985594-888B-3004-A613-12DCCEDBD956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\io">
+      <UniqueIdentifier>{6BE9CF1D-D0CC-3153-81C8-2A65536D84EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\kvstore">
+      <UniqueIdentifier>{F18B8C3F-AE20-343C-BC6E-61BDFA6BB05C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\ndarray">
+      <UniqueIdentifier>{669861AB-1F20-35F8-89BE-FC055492BD77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator">
+      <UniqueIdentifier>{D2162254-5A43-3112-8324-9322113F1932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\optimizer">
+      <UniqueIdentifier>{6DA8C8D4-48E9-3D1D-90C4-288878638E20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\storage">
+      <UniqueIdentifier>{29986482-5D59-38B7-83FB-5426F22D83ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src">
+      <UniqueIdentifier>{24EA3A40-6DED-3983-BB3C-0EB8622E2872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\nnvm">
+      <UniqueIdentifier>{B7EF43CE-240E-38F1-8830-0F2B23F73E3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\nnvm\include">
+      <UniqueIdentifier>{E2FF54BB-FC94-39A4-A485-4DB3DF7826B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\nnvm\src">
+      <UniqueIdentifier>{752D6E44-6501-3EAA-AD84-EEE6C5A4B713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\contrib\ctc_include\contrib\moderngpu\include">
+      <UniqueIdentifier>{C8A657B0-D29C-3C96-89DB-48DC8153FDC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\contrib\ctc_include\contrib\moderngpu">
+      <UniqueIdentifier>{5F84BE58-D768-3BA4-8FE6-C45EB515501B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\mshadow\mshadow">
+      <UniqueIdentifier>{D32819B0-F5B2-35B8-B685-48B3C62BB576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\nnvm\include\nnvm">
+      <UniqueIdentifier>{C5148384-1EC9-3739-BA2C-1E7E168DA365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\contrib\ctc_include\contrib\moderngpu\include\util">
+      <UniqueIdentifier>{137D0593-991D-3D8E-8DB9-D43CC3840C73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{B5BF5E30-155A-3338-AF26-05751262F8EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{8C8EEDBE-C66A-311A-9A26-14099E69DBBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\mshadow\mshadow\extension">
+      <UniqueIdentifier>{4BD9000C-4AB5-351F-81CE-DB091F007A59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\mshadow\mshadow\packet">
+      <UniqueIdentifier>{EE34D235-C107-3C44-AE56-0303E1E59C84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\nnvm\src\c_api">
+      <UniqueIdentifier>{CC566B50-3A3B-34C4-8138-3D121DB1F7CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\nnvm\src\pass">
+      <UniqueIdentifier>{5DDECFBE-6B39-3BD3-92FA-D58DAB48F21E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\contrib\ctc_include\contrib">
+      <UniqueIdentifier>{40E2E86B-31C0-3B9C-906B-81E1C6E53DC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\contrib\ctc_include\detail">
+      <UniqueIdentifier>{720428EB-7FE8-395A-8322-A79B1D0551CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\contrib\ctc_include">
+      <UniqueIdentifier>{2E06B43E-3A26-37A0-963D-9C983882EE91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\contrib\nn">
+      <UniqueIdentifier>{DA76C740-409C-35C4-906D-91DBB25D4143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\contrib">
+      <UniqueIdentifier>{BBD219D0-F449-38EC-96BF-9B71DF7000D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\custom">
+      <UniqueIdentifier>{33FE706E-A0AA-33C5-9601-206141465AB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\mkl">
+      <UniqueIdentifier>{FFDF2445-AD4B-3D85-96DA-AAD2C2C42476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\nn">
+      <UniqueIdentifier>{F716B58E-21EE-307C-8F97-5118CF3A0DF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\nnpack">
+      <UniqueIdentifier>{C589A9B5-58D9-39B7-9CA3-805550A5317C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\random">
+      <UniqueIdentifier>{F936C411-6E84-3C6D-8B23-E675782F3E01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src\operator\tensor">
+      <UniqueIdentifier>{E211D904-1219-3C29-85A4-088F433A9EDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\operator\contrib">
+      <UniqueIdentifier>{04BFAD54-7079-33A6-AF2C-FC8BA8010FC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\operator\custom">
+      <UniqueIdentifier>{3DD3F981-E92B-39C4-BD6B-132CEA764D94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\operator\mkl">
+      <UniqueIdentifier>{BCBD253F-5B45-3940-8999-2E41D10229CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\operator\nn">
+      <UniqueIdentifier>{4FE5E558-D8F1-31E1-8A37-3E1117E9947A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\operator\nnpack">
+      <UniqueIdentifier>{C9B9884A-EDDE-3DF5-BD91-C527DD62DF2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\operator\random">
+      <UniqueIdentifier>{A32A68A3-031E-323F-9425-13D23478042A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\operator\tensor">
+      <UniqueIdentifier>{1DC4DB50-B1CD-382C-8ED7-2C6CE06E6194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\nnvm\src">
+      <UniqueIdentifier>{664568D2-2EAC-3DA0-B7B7-8AEF48C8BDB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\nnvm\src\c_api">
+      <UniqueIdentifier>{E96B4B5C-3528-34D1-B38E-42650915FCE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\nnvm\src\core">
+      <UniqueIdentifier>{B60DB0AF-E076-3167-BC55-30BC440E2332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\nnvm\src\pass">
+      <UniqueIdentifier>{6AA72673-A3ED-30F3-A2D6-532B2A222993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\c_api">
+      <UniqueIdentifier>{05890F3F-D484-3A8D-9DDC-29DBE00308AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\common">
+      <UniqueIdentifier>{FDDA15B8-B6FF-3C2D-9516-7030021CE931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\engine">
+      <UniqueIdentifier>{0640D8E1-E6B9-3180-97B0-B2C6AF642E40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\executor">
+      <UniqueIdentifier>{8EC04C02-801D-3876-B4CC-3CAC6C8C9A00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\io">
+      <UniqueIdentifier>{4EFE3ED5-C2AE-3320-BA58-3623B44FFEC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\kvstore">
+      <UniqueIdentifier>{709C898C-805B-3BD8-8DDA-4FB2832FAA80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\ndarray">
+      <UniqueIdentifier>{10ED1111-715D-377B-9AF4-4DB131943F89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\nnvm">
+      <UniqueIdentifier>{BC3DC236-1B03-3752-BC58-6391FAC9BB93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\operator">
+      <UniqueIdentifier>{70B36101-1CA4-3B5D-BC22-0C66F78C802C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\src\storage">
+      <UniqueIdentifier>{7E411976-6BA4-3573-8336-953B87CC2045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\src">
+      <UniqueIdentifier>{B3D5C639-C5D7-3D22-9CA5-F0D89647E464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\nnvm">
+      <UniqueIdentifier>{9B550FF9-2A1A-38E1-8156-02744CCA7D40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\mshadow">
+      <UniqueIdentifier>{FF9D57AA-8F95-3AEF-B04B-D87D98F38297}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
