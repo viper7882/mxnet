@@ -82,10 +82,10 @@ R-package/R/mxnet_generated.R
 # data
 *.rec
 *.lst
-*.zip
+#*.zip
 *ubyte
 *.bin
-*.txt
+#*.txt
 #!CMakeLists.txt
 
 # ipython notebook

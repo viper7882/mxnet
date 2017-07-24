@@ -1,0 +1,22 @@
+Microsoft (R) COFF/PE Dumper Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file libmxnet.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    libiomp5md.dll
+    KERNEL32.dll
+
+  Summary
+
+       A5000 .data
+        1000 .gfids
+      177000 .rdata
+       63000 .reloc
+        1000 .rsrc
+     103D000 .text
+        1000 .tls
